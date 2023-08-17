@@ -75,6 +75,9 @@
   .contact-info-upper-container {
     flex-wrap: wrap;
   }
+  .contact-info-upper-container {
+    display: block;
+  }
 
   .contact-info-container {
     margin-right: 2rem;
