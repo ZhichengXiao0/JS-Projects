@@ -204,6 +204,10 @@ section {
   cursor: pointer;
 }
 
+.link:hover {
+  cursor: pointer;
+}
+
 /* BUTTON */
 .btn-container {
   display: flex;
@@ -283,7 +287,8 @@ section {
   flex: 1;
   background-color: white;
   border-radius: 2rem;
-  border: 0.1rem solid rgb(163, 163, 163);
+  border: 0.1rem solid rgb(53, 53, 53);
+  border-color: rgb(163, 163, 163);
   text-align: center;
 }
 
@@ -349,8 +354,8 @@ article {
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: auto;
+  height: 270px;
 }
 
 .project-title {
@@ -391,7 +396,7 @@ article {
 }
 
 .contact-info-container p {
-  font-size: small;
+  font-size: larger;
 }
 
 .contact-icon {
@@ -405,4 +410,15 @@ article {
 .contact-info-container p::after,
 ::before {
   content: none;
+}
+
+/* FOOTER SECTION */
+
+footer {
+  height: 26vh;
+  margin: 0 1rem;
+}
+
+footer p {
+  text-align: center;
 }
